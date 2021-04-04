@@ -15,7 +15,7 @@ module.exports = {
   // https://www.foobar.com/my-app/
   // 那么将这个值改为 '/my-app/'
 
-  publicPath: "./",
+  publicPath: "/schosearch/",
   outputDir: "dist",
   lintOnSave: false,
   runtimeCompiler: false,

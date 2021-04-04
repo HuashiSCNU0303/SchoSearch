@@ -1,4 +1,8 @@
-import { UpOutlined, DownOutlined, SearchOutlined } from "@ant-design/icons-vue";
+// 怎么用babel-loader配置按需加载啊……
+
+import UpOutlined from "@ant-design/icons-vue/UpOutlined";
+import DownOutlined from "@ant-design/icons-vue/DownOutlined";
+import SearchOutlined from "@ant-design/icons-vue/SearchOutlined";
 
 const components = [UpOutlined, DownOutlined, SearchOutlined]
 

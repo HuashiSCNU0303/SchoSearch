@@ -1,9 +1,9 @@
-// 按需引入Ant Design，但配置不了babel，先不管了
-// 而且Select下的组件也不能帮我注册是咋回事……
-
 import { Button, Collapse, AutoComplete, Input, InputNumber, Popover, Select, Col, Row, Tag, Card, Typography, Divider, List, Empty, Badge, Spin } from "ant-design-vue";
 
+// 需要用name属性注册的组件
 const nameComponents = [Button, Collapse, AutoComplete, Input, InputNumber, Popover, Select, Col, Row, Tag, Card, Typography, Divider, List, Badge, Spin, Collapse.Panel, List.Item];
+
+// 需要用displayName属性注册的组件
 const displayNameComponents = [Select.Option, Typography.Title, List.Item.Meta, Empty]
 
 export default {
