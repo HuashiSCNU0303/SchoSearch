@@ -175,7 +175,7 @@ export default {
             }
           },
           extraCssText:
-            "max-width: 800px; overflow: hidden; white-space: normal; word-break:break;",
+            "max-width: 800px; top: 0px; max-height: 300px; overflow: auto; white-space: normal; word-break:break;",
         },
         animationDurationUpdate: 1500,
         animationEasingUpdate: "quinticInOut",

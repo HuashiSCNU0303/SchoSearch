@@ -92,7 +92,10 @@ public class SearchController {
 
         JSONObject matchObj = new JSONObject();
         if (word != null && !"".equals(word)) {
-            matchObj.put("name", word);
+            JSONObject nameQueryObj = new JSONObject();
+            nameQueryObj.put("query", word);
+            nameQueryObj.put("fuzziness", "AUTO");
+            matchObj.put("name", nameQueryObj);
         }
 
         JSONObject queryObj = new JSONObject();
